@@ -14,9 +14,9 @@ public class NextPermutation {
 
 
      /*
-        for(int j= a.length-1; j >= 0; j--) {
-        
         int ind = 0;
+        for(int j= a.length-1; j >= 0; j--) {
+
         swap(a, ind, j); 
         ind++;
      }
