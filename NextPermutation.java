@@ -4,10 +4,10 @@ public class NextPermutation {
     //  arrangement of its members into a sequence or linear order.
 
     public static int[] permutationArray(int a[]) {
-
+// Iterate the array from right to left
         for (int i = a.length - 1; i > 0; i--) {
             if (a[i] > a[i - 1]) {
-                swap(a, i, i - 1); // 1 2 3 1 3 2 2 1 3 2 3 1
+                swap(a, i, i - 1); // 1 2 3 || 1 3 2 || 2 1 3 || 2 3 1
                 return a;
             }
         }
@@ -16,6 +16,7 @@ public class NextPermutation {
 
     }
 
+    // swap between 2 indexs in an array
     public static int[] swap(int[] arr, int i, int j) {
 
         int temp = arr[i];
