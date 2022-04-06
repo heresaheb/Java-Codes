@@ -16,7 +16,7 @@ public class NextPermutation {
         int ind = a.length-1;
         for(int j= 0; j < a.length-1; j++) {
 
-        swap(a, ind, j); 
+        swap(a, ind, j);   // If {3,2,1} => {1,2,3}
         ind--;
      }
      
