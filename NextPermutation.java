@@ -13,14 +13,13 @@ public class NextPermutation {
         }
 
 
-     /*
-        int ind = 0;
-        for(int j= a.length-1; j >= 0; j--) {
+        int ind = a.length-1;
+        for(int j= 0; j < a.length-1; j++) {
 
         swap(a, ind, j); 
-        ind++;
+        ind--;
      }
-     */
+     
         return a;
 
     }
