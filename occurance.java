@@ -1,3 +1,5 @@
+//Question Link Given Below under the file name.
+
 import java.util.*;
 public class occurance {
 
